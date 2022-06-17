@@ -4,6 +4,26 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: ''
+  label: Webinars
+  create: all
+  match: "**/*"
+- type: directory
+  path: ''
+  label: Courses
+  create: all
+  match: "**/*"
+- type: directory
+  path: ''
+  label: Services
+  create: all
+  match: "**/*"
+- type: directory
+  path: ''
+  label: Products
+  create: all
+  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
